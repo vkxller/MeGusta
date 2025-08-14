@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif; /*Splica la fuente a todo el contenido*/
+    background-color: #f5f5f5;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center; /* Centrado horizontal */
+    align-items: center;     /* Centrado vertical */
+    height: 80px;
+    background-color: #404040;
+    color: white;
+    font-weight: bold;
+}
+
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+}
+
+/*Contenedor padre, contiene todas las secciones exceptuaando navbar*/
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px; /*Espaciado entre tarjet de perfil y posts*/ 
+    padding: 40px;
+}
+
+/*Contenedor de Perfil */
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ebebeb;
+    border: 1px solid black;
+    width: 300px;
+    height: 340px;
+    padding: 20px;
+    margin-top: 60px;
+    margin-left: -600px;
+}
+
+/*Imagen Circular*/
+.imagenperfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+/*Estilos de nombre de perfil*/
+.nombreperfil {
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/*Contenedor de posts*/
+.publicaciones {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 800px;
+    width: 100%;
+    font-size: 38px;
+    font-weight: bold;
+    margin-top: -4px;  
+}
+
+/*Cada publicacion*/
+.post {
+    background-color: #ebebeb;
+    border: 1px solid black;
+    padding: 15px;
+    width: 1100px;
+    height: 150px;
+}
+/*usuario contenido de post, likes y boton*/
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+/*Nombre dueño de publicacion*/
+.nombrepost {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*Texto de likes*/
+.likes {
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: 15px;
+}
+
+/*Boton Like*/
+
+.botonlike {
+    background-color: #ffd700;
+    color: black;
+    border: none;
+    padding: 8px 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: transform 0.2s ease;
+}
+
+.botonlike:hover {
+    background-color: #c2a501;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+/*Contenido de la publicacion*/
+.mensaje {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+/*Palabra clicleable (con link)*/
+.mensaje a {
+    color: blue;
+    text-decoration: underline;
+}
+
+

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Network</title>
+    <link href="css/estilos.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#">Network</a>
+    </nav>
+
+    <main>
+        <div class="container">
+            <!-- Tarjeta de Perfil -->
+            <section class="profile">
+                <img src="./img/DIEGO REYES HERRERA.jpeg" alt="Imagen de perfil" class="imagenperfil">
+                <p class="nombreperfil">Diego Reyes</p>
+            </section>
+
+            <!-- Contenedor de todos las publicaciones y cada una de estas por separado -->
+            <div class="publicaciones"> Your Feed
+                <section class="post">
+                    <div class="info">
+                        <span class="nombrepost">Linn O.</span>
+                        <span class="likes"> <a class="contadorlikes">0</a> like(s)</span> <!--Cada uno  tiene su propia clase de contador, asi seran variables diferentess-->
+                        <button class="botonlike">Like</button>
+                    </div>
+                    <p class="mensaje">
+                        Acabo de configurar este nuevo bot de Discord, cuéntenme qué opinan ustedes.
+                        <a href="#">link</a>  <!--Se deja vacio el atributo para que solo muestre que es clickleable pero no redigira a ningun lado-->
+                    </p>
+                </section>
+
+                <section class="post">
+                    <div class="info">
+                        <span class="nombrepost">Bastian P.</span>
+                        <span class="likes"> <a class="contadorlikes2">0</a> like(s)</span>
+                        <button class="botonlike">Like</button>
+                    </div>
+                    <p class="mensaje">
+                        Acabo de terminar este <a href="#">nuevo comic</a>, denle un vistazo.
+                    </p>
+                </section>
+
+                <section class="post">
+                    <div class="info">
+                        <span class="nombrepost">Mateo H.</span>
+                        <span class="likes"> <a class="contadorlikes3">0</a> like(s)</span>
+                        <button class="botonlike">Like</button>
+                    </div>
+                    <p class="mensaje">
+                        No puedo dejar de escuchar este <a href="#">album</a>. ¿A quién más le gusta?
+                    </p>
+                </section>
+
+                <section class="post">
+                    <div class="info">
+                        <span class="nombrepost">Juan T.</span>
+                        <span class="likes">  <a class="contadorlikes4"> 0 </a> like(s)</span>
+                        <button class="botonlike" class="botonlike">Like</button>
+                    </div>
+                    <p class="mensaje">
+                        No puedo dejar de escuchar este <a href="#">album</a>. ¿A quién más le gusta?
+                    </p>
+                </section>
+                
+            </div>
+        </div>
+    </main>
+    <script src="./js/script.js" defer></script>
+</body>
+</html>
