@@ -52,15 +52,15 @@ body {
 
 /*Imagen Circular*/
 .imagenperfil {
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
     border: 2px solid black;
 }
 /*Estilos de nombre de perfil*/
 .nombreperfil {
-    margin-top: 20px;
-    font-size: 22px;
+    margin-top: 80px;
+    font-size: 32px;
     font-weight: bold;
 }
 
